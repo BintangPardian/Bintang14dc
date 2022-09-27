@@ -352,7 +352,7 @@ a:hover {
 
 .bg-text {
   background: var(--white-color--);
-  /*border-radius: 50px;*/
+  border-radius: 50px;
   padding-top: 60px;
   /*margin-left: 110px;*/
 }
@@ -372,6 +372,15 @@ a:hover {
 
 .subscribe {
   background-color: rgba(0, 0, 0, 0.7);
+}
+
+/*---------------------------------------
+  SECTION               
+-----------------------------------------*/
+
+.section-padding {
+  padding-top: 7rem;
+  padding-bottom: 7rem;
 }
 
 /*---------------------------------------
@@ -430,4 +439,86 @@ a:hover {
 
 .social-icon-link:hover {
   color: var(--primary-color);
+}
+
+/*---------------------------------------
+  RESPONSIVE STYLES               
+-----------------------------------------*/
+
+@media screen and (min-width: 1600px) {
+  .news-two-column {
+    min-height: 232.5px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  h1 {
+    font-size: 48px;
+  }
+
+  h2 {
+    font-size: 36px;
+  }
+
+  h3 {
+    font-size: 32px;
+  }
+
+  h4 {
+    font-size: 28px;
+  }
+
+  h5 {
+    font-size: 20px;
+  }
+
+  h6 {
+    font-size: 18px;
+  }
+
+  .navbar {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .section-padding {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
+
+  .team-thumb {
+    left: 0;
+    width: auto;
+  }
+
+  .news-two-column {
+    height: auto !important;
+    min-height: inherit;
+  }
+
+  .news .col-12 .news-two-column:first-child {
+    margin-bottom: 38px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .news-detail-title {
+    font-size: 36px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  h1 {
+    font-size: 32px;
+  }
+
+  .heroText p {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 359px) {
+  .news-detail-title {
+    font-size: 22px;
+  }
 }
